@@ -78,4 +78,15 @@
 
 在ts中引入使用
 
-    
+    import * as $ from 'jquery';
+
+提示： 这样的引入不会导致任何问题(使用起来)，但是ts无法识别他的类型，会有提示。  你需要安装 @type/jquery 来帮助ts识别他
+
+    npm install @type/jquery  --save-dev
+
+安装完成之后，提示就会消失了
+
+-----
+
+
+## [>  basic基础教程](./2.basic_基础.md)
